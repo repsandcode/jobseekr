@@ -1,4 +1,7 @@
 # JobSeekr
 
 Seeking for work?
-Get hired here and start earning.
+
+JobSeekr got you.
+
+Get hired and start earning.
