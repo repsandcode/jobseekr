@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Companies from "../models/companiesModel.js";
+import Companies from "../models/CompaniesModel.js";
 import { response } from "express";
 
 /* 

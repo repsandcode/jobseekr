@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import Jobs from "../models/jobsModel.js";
-import Companies from "../models/companiesModel.js";
+import Jobs from "../models/JobsModel.js";
+import Companies from "../models/CompaniesModel.js";
 
 export const createJob = async (req, res, next) => {
   try {
