@@ -1,0 +1,41 @@
+# REGISTER USER
+# POST http://localhost:4400/api-v1/auth/register HTTP/1.1
+# content-type: application/json
+# {
+#     "firstName": "AJ",
+#     "lastName": "Borja",
+#     "email": "test@test.com",
+#     "password": "test123"
+# }
+
+
+# REGISTER COMPANY
+POST http://localhost:4400/api-v1/jobs/upload-job HTTP/1.1
+content-type: application/json
+
+{
+    "jobTitle": "Software Engineer",
+    "jobType": "Full-Time",
+    "location": "New York",
+    "salary": "2500",
+    "vacancies": "10",
+    "experience": "2",
+    "desc": "job description",
+    "requirements": "job requirements"
+}
+
+
+# SIGN IN
+# POST http://localhost:4400/api-v1/auth/login HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "test@test.com",
+#     "password": "test14"
+# }
+
+# @authToken = {{authToken}}
+# # GET USER
+# POST http://localhost:4400/api-v1/users/get-user HTTP/1.1
+# content-type: application/json
+# Authorization: token
