@@ -97,7 +97,7 @@ const Footer = () => {
             <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-300 text-sm">
               Inspired by
               <a
-                href="https://github.com/CodeWaveWithAsantee"
+                href="https://github.com/CodeWaveWithAsante"
                 className="text-[#1199e7] ml-1"
                 target="_blank"
                 rel="noopener noreferrer"
